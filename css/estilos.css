@@ -4,110 +4,6 @@
     
 }
 
-.face{
-    width: 80px;
-    height: 40px;
-    object-fit: contain;
-    object-position: center;
-    position:fixed;
-    top:5%;
-    right:4%;
-    
-}
-
-.insta{
-    width: 80px;
-    height: 40px;
-    object-fit: contain;
-    object-position: center;
-    position:fixed;
-    top:16%;
-    right:4%;
-}
-.whats{
-    width: 80px;
-    height: 40px;
-    object-fit: contain;
-    object-position: center;
-    position:fixed;
-    top:27%;
-    right:4%;
-}
-
-@media screen and (min-width: 780px) and (max-widht:1080px) {
-   
-    .face{
-        width: 30px;
-        height: 20px;
-        object-fit: contain;
-        object-position: center;
-        position:fixed;
-        top:1%;
-        right:5%;
-        
-    }
-    
-    .insta{
-        width: 30px;
-        height: 20px;
-        object-fit: contain;
-        object-position: center;
-        position:fixed;
-        top:5%;
-        right:5%;
-    }
-    .whats{
-        width: 30px;
-        height: 20px;
-        object-fit: contain;
-        object-position: center;
-        position:fixed;
-        top:9%;
-        right:5%;
-    }
-    }
-
-
-
-
-@media (max-widht:600px) {
-   
-    .face{
-        width: 20px;
-        height: 10px;
-        object-fit: contain;
-        object-position: center;
-        position:fixed;
-        top:1%;
-        right:0;
-        
-    }
-
-    .insta{
-        width: 20px;
-        height: 10px;
-        object-fit: contain;
-        object-position: center;
-        position:fixed;
-        top:5%;
-        right:0;
-    }
-    .whats{
-        width: 20px;
-        height: 10px;
-        object-fit: contain;
-        object-position: center;
-        position:fixed;
-        top:9%;
-        right:0;
-    }
-    }
-
-
-
-
-
-
 
 .container{
     width: 80vw;
@@ -213,13 +109,9 @@ a{
 }
 
 .card2-3{
-    width: fit-content;
-    height: fit-content;
+    width: 80%;
     object-fit: contain;
-    object-position: center;
     position:absolute;
-    height: 95%;
-    top:10%;
 }
 
 .card3{
@@ -318,43 +210,50 @@ a{
     object-position: center;
     position:absolute;
     height: 95%;
-    
 }
-
 
 .card7-2{
     width: 40%;
     height: 12%;
     max-height: 15%;
-    position: absolute;
+    margin-left: 50%;
+    position: relative;
 }
+  
 
-.card7-3{
-    width: fit-content;
-    height: fit-content;
-    object-fit: contain;
-    object-position: center;
-    position:absolute;
-    height: 95%;
-    top:10%;
-}
-
-.card8{
-    background-image: url(./img/grandf.png);
-    width: 80vw;
-    height: 400px;
-    border-radius: 15px;
-
-}
 .container2{
     background-color:#0a90a2;
     width:250px;
     height: auto;
     border-radius: 5px;
     padding: 5px 5px;
-    margin-left: 250%;
+    position: absolute;
 }
 
+@media (min-width:600px)and(max-width:950px){
+    
+    .container2{
+        background-color:#0a90a2;
+        width:200px;
+        height: auto;
+        border-radius: 5px;
+        padding: 5px 5px;
+        margin:auto;
+    }
+}
+
+@media (max-width: 600px) {
+  
+    .container2{
+        background-color:#0a90a2;
+        width:90%;
+        height: auto;
+        max-width: 300px;
+        border-radius: 5px;
+        padding: 5px 5px;
+    }
+
+}
 
 .formulario{
     width: 100%;
@@ -400,42 +299,3 @@ a{
     cursor:pointer;
 }
 
-@media screen and (min-width:600px)and(max-width:850px){
-    
-    .container2{
-        background-color:#0a90a2;
-        width:200px;
-        height: auto;
-        border-radius: 5px;
-        padding: 5px 5px;
-        margin-left: 50%;
-    }
-}
-
-
-
-
-
-@media (max-width: 600px) {
-    .card7{
-        margin-top: 15%;
-        left:0%;
-    }
-    .card8{
-        width: 80vw;
-        height: 300px;
-        border-radius: 15px;
-    
-    }
-  
-    .container2{
-        background-color:#0a90a2;
-        width:90%;
-        height: auto;
-        max-width: 300px;
-        border-radius: 5px;
-        padding: 5px 5px;
-        margin-left: 60%;
-    }
-
-}
