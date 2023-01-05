@@ -22,27 +22,54 @@ html {
 }
 
 .icon-instagram {
-	max-width: 40px;
-    max-height: 40px;
+	width: 60px;
+    height: 60px;
     object-fit: contain;
     object-position: center;
 	background: #E83028;
 }
-.icon-facebook {
-	max-width: 40px;
-    max-height: 40px;
+.icon-facebook2 {
+	width: 60px;
+    height: 60px;
     object-fit: contain;
     object-position: center;
 	background: #2E406E;
 }
 
 .icon-whatsapp {
-	max-width: 40px;
-    max-height: 40px;
+	width: 60px;
+    height: 60px;
     object-fit: contain;
     object-position: center;
 	background: #04c724;
 }
+
+@media (max-width:750px){
+	.icon-instagram {
+		width: 30px;
+		height: 30px;
+		object-fit: contain;
+		object-position: center;
+		background: #E83028;
+	}
+	.icon-facebook2 {
+		width: 30px;
+		height: 30px;
+		object-fit: contain;
+		object-position: center;
+		background: #2E406E;
+	}
+	
+	.icon-whatsapp {
+		width: 30px;
+		height: 30px;
+		object-fit: contain;
+		object-position: center;
+		background: #04c724;
+	}	
+	}
+
+
 
 .icon:hover {
 	padding-right: 3rem;
